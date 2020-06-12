@@ -1,0 +1,9 @@
+server:
+  port: 8801
+  servlet:
+    context-path: /luckymoney
+
+limit:
+  minMoney: 1
+  maxMonry: 9999
+  description: 最少要发${limit.minMoney}元,最多不能超过${limit.maxMonry}元
